@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>
+        CONST MODAL;calling the modal class or generally the whole body with
+        class modal. CONST OVERLAY;calls the whole part div2//layer behind the
+        modal. CONST STARBUTTON;calls the &times button. CONST
+        BTNSHOWMODAL;calls the showmodal button and stores them in an array
+        which becomes btnshowmodal[show-modal,show-moda2,show-moda3]. we call
+        such classes with the same the same class with .querySwlwectorAll('.the
+        name of the class')which aid us to call each using a for loop. //using
+        for loop we imput the event listener method of clicking and give the
+        function some work eg removing the hidden class. //we can manipulate a
+        class using a method called classlist,remove/add;this either removes the
+        class we select or adds it, //eg if we want to display a class=hidden in
+        our web page we;;;document.querrySelector('.class name of
+        hidden').classList.remove('hidden').
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
